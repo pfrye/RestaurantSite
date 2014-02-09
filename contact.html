@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Week 2 - Assignment" />
+    <meta name="author" content="pfrye@bulldogs.mgccc.edu" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Frye's Burgers and Fries</title>
+  </head>
+  <body><div id="wrapper">
+    <div class="nav"><ul id="ulist">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="burgers.html">Burgers</a></li>
+      <li><a href="fries.html">Fries</a></li>
+      <li><a href="other.html">Other Foods</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul></div>
+    <div id="head"><h1>Contact Us</h1></div>
+        <form action="email.php" method="post">
+		    
+           <fieldset>
+             <label for="name">Name:</label>
+             <input type="text" name="name" id="name" required="required" value="" />
+           </fieldset>
+			  
+	   <fieldset>
+             <label for="number">Phone Number:</label>
+             <input type="text" name="number" id="number" placeholder="123-456-7890" required="required" value="" />
+           </fieldset>
+ 
+           <fieldset>
+             <label for="email">Email Address:</label>
+             <input type="email" name="email" required="required" id="email" value="" />
+           </fieldset>
+
+           <fieldset>
+             <p id="rlist">Reason For Contacting:<p>
+	        <input type="radio" name="reason" id="employment" value="Employment" />
+		Employment<br>
+		<input type="radio" name="reason" id="general" value="General" />
+		General Comments<br>
+		<input type="radio" name="reason" id="critique" value="Food Critique" />
+		Food Critique
+           </fieldset>
+  
+           <fieldset>
+             <label for="message">Message:</label>
+             <textarea cols="69" rows="5" name="message" id="message" placeholder="Your message here"></textarea>
+           </fieldset>
+ 
+           <fieldset id="submitd">
+             <input type="submit" id="submit" name="submit" value="Submit" title="Click here to submit form data..." />
+           </fieldset>
+	</form>
+    <div class="footer">Copyright &copy; 2014
+      <a href="mailto:pfrye@bulldogs.mgccc.edu">pfrye@bulldogs.mgccc.edu</a></div>
+  </div></body>
+</html>
