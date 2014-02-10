@@ -27,6 +27,12 @@ a {
 		 text-align: center;
                  padding-top: 700px;
 }
+.ftr {
+	    font-size: .60em;
+		 font-style: italic;
+		 text-align: center;
+                 padding-top: 50px;
+}
 #platter {
             padding-left: 50px;
 }
@@ -79,6 +85,10 @@ h3 {
 }
 #pickles {
             padding-bottom: 20px;
+}
+p {
+       font-size: 2em;
+       font-style: italic;
 }
 }
 #ulist {
