@@ -11,10 +11,13 @@ a {
 	    padding: 10px 20px;
 		 font-size: 1.2em;
 }
-.nav li {
-		 display: inline;
-		 list-style-type: none;
-		 padding-left: 43px;
+
+nav form {
+    display: inline;
+    margin: 5px;
+}
+#nav {
+    text-align: center;
 }
 #wrapper {
 		 margin-left: auto;
@@ -22,7 +25,7 @@ a {
 		 width: 900px;
                  padding: 10px;
                  clear: both;
-                 border-radius: 25px; /* CSS3*/
+                 border-radius: 25px;
                  background: #fc6;
 }
 .footer {
@@ -31,7 +34,7 @@ a {
 		 text-align: center;
                  padding: 10px;
                  clear: both;
-                 border-radius: 25px; /* CSS3*/
+                 border-radius: 25px;
                  background: #fc6;
 }
 .ftr {
@@ -40,7 +43,7 @@ a {
 		 text-align: center;
                  padding: 10px;
                  clear: both;
-                 border-radius: 25px; /* CSS3*/
+                 border-radius: 25px;
                  background: #fc6;
 }
 #platter {
