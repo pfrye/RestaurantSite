@@ -24,9 +24,8 @@ a {
 .footer {
 	    font-size: .60em;
 		 font-style: italic;
-		 padding: 200px;
 		 text-align: center;
-                 margin-top: 500px;
+                 padding-top: 700px;
 }
 #platter {
             padding-left: 50px;
@@ -56,6 +55,9 @@ h3 {
 }
 #c2 {
     float: right;
+}
+#c3 {
+    float: left;
 }
 #of1 {
     float: left;
