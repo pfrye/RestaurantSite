@@ -20,18 +20,28 @@ a {
 		 margin-left: auto;
 		 margin-right: auto;
 		 width: 900px;
+                 padding: 10px;
+                 clear: both;
+                 border-radius: 25px; /* CSS3*/
+                 background: #fc6;
 }
 .footer {
 	    font-size: .60em;
 		 font-style: italic;
 		 text-align: center;
-                 padding-top: 700px;
+                 padding: 10px;
+                 clear: both;
+                 border-radius: 25px; /* CSS3*/
+                 background: #fc6;
 }
 .ftr {
 	    font-size: .60em;
 		 font-style: italic;
 		 text-align: center;
-                 padding-top: 50px;
+                 padding: 10px;
+                 clear: both;
+                 border-radius: 25px; /* CSS3*/
+                 background: #fc6;
 }
 #platter {
             padding-left: 50px;
@@ -40,6 +50,9 @@ a {
             padding-bottom: 20px;
 }
 #hamburger2 {
+            padding-bottom: 20px;
+}
+#hamburger3 {
             padding-bottom: 20px;
 }
 h3 {
@@ -78,6 +91,9 @@ h3 {
             padding-bottom: 20px;
 }
 #ff2 {
+            padding-bottom: 20px;
+}
+#ff3 {
             padding-bottom: 20px;
 }
 #milkshakes {
