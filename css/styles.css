@@ -28,6 +28,11 @@ nav form {
                  border-radius: 25px;
                  background: #fc6;
 }
+h2 {
+                 clear: both;
+                 border-radius: 25px;
+                 background: #9cf;
+}
 .footer {
 	    font-size: .60em;
 		 font-style: italic;
@@ -105,10 +110,10 @@ h3 {
 #pickles {
             padding-bottom: 20px;
 }
-p {
-       font-size: 2em;
+h4 {
+       font-size: 1.6em;
        font-style: italic;
-}
+       padding-left: 25px;
 }
 #ulist {
 	    margin-left:auto;
