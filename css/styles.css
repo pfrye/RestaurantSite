@@ -23,15 +23,15 @@ nav form {
 		 margin-left: auto;
 		 margin-right: auto;
 		 width: 900px;
-                 padding: 10px;
-                 clear: both;
-                 border-radius: 25px;
-                 background: #fc6;
+         padding: 10px;
+         clear: both;
+         border-radius: 25px;
+         background: #fc6;
 }
 h2 {
-                 clear: both;
-                 border-radius: 25px;
-                 background: #9cf;
+         clear: both;
+         border-radius: 25px;
+         background: #9cf;
 }
 .footer {
 	    font-size: .60em;
@@ -52,16 +52,7 @@ h2 {
                  background: #fc6;
 }
 #platter {
-            padding-left: 50px;
-}
-#hamburger1 {
-            padding-bottom: 20px;
-}
-#hamburger2 {
-            padding-bottom: 20px;
-}
-#hamburger3 {
-            padding-bottom: 20px;
+            margin-left: 50px;
 }
 h3 {
     float: right;
@@ -94,21 +85,6 @@ h3 {
 }
 #of3 {
     float: left;
-}
-#ff {
-            padding-bottom: 20px;
-}
-#ff2 {
-            padding-bottom: 20px;
-}
-#ff3 {
-            padding-bottom: 20px;
-}
-#milkshakes {
-            padding-bottom: 20px;
-}
-#pickles {
-            padding-bottom: 20px;
 }
 h4 {
        font-size: 1.6em;
@@ -153,4 +129,7 @@ label {
 }
 #email, #number, #name {
 	   width: 300px;
+}
+img {
+    border: 1px solid #000;
 }
